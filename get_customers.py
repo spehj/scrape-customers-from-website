@@ -13,7 +13,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     scraper = Scraper("https://scale.com/")
-    # scraper.get_homepage()
+
     customers_url = scraper.get_customers()
     result = scraper.parse_customers(customers_url)
     scraper.generate_json(result=result, filename=json_filename)
