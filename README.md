@@ -18,6 +18,8 @@ python get_customers.py customers.json
 
 Datoteka **scraper.py** vsebuje objekt in metoda za scrapanje strani https://scale.com/.
 
+Rezultat naloge se nahaja v datoteki **customers.json**.
+
 ## Naloga 2
 
 Ideje:
